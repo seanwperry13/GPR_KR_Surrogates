@@ -1,7 +1,7 @@
 function [HD,minMN, minNM]=HaussDist(M,N)
 
-%Calculate Hausdorf distance between two R^x subsets M and N
-%M and N must be arrays of dimesion (m,x) and (n,x)
+%Calculate Hausdorf distance between two R^k subsets M and N
+%M and N must be arrays of dimesion (m,k) and (n,k)
 
 DimM=size(M);
 DimN=size(N);
