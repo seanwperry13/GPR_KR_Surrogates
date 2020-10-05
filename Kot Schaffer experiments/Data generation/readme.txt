@@ -4,7 +4,9 @@ More information on the equations themselves can be found in the following paper
 
 The code in this file was created by Dr. William Kalies to generate time series based on the Kot Schaffer equations.
 
-The script KSR_iteration.m must be run first to generate the arrays P and Q. These correspond to points in R^2 and their targets under Kot Shaffer.
+The script KSR_iteration.m may be run first to generate the arrays P and Q. 
 
-The sample data sets PKSlong and QKSlong were created with N=1000000
+The sample data sets PKSlong and QKSlong were created with N=1000000 taking the first two columns of P and Q.
+
+
 
